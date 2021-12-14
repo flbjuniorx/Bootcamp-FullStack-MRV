@@ -1,12 +1,39 @@
+body {
+    background: #fcfcfc;
+}
+
 #title {
-    font-size: 16;
+    color: darkblue;
 }
 
 .subtitle {
-    font-size: 10;
     color: brown;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkblue;
+    border-radius: 5px;
 }
 
 .post_title {
     color: blueviolet;
+    margin: 0 0 0 15px;
+}
+
+.post_text {
+    margin: 15px 0 0 0;
+    border-width: 2px;
+    border-color: #505050;
+    text-align: justify;
+    text-decoration-color: #505050;
+}
+
+.post_image {
+    width: 200px;
+    border-radius: 5px;
 }
